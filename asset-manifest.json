@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/react-comments-documentation/static/css/main.38cb87cf.css",
-    "main.js": "/react-comments-documentation/static/js/main.14c9175e.js",
-    "static/media/login.png": "/react-comments-documentation/static/media/login.a59e2f5429bb4bc3dc18.png",
+    "main.css": "/react-comments-documentation/static/css/main.b9079622.css",
+    "main.js": "/react-comments-documentation/static/js/main.8caa5035.js",
+    "static/media/default.png": "/react-comments-documentation/static/media/default.336da797c4c9cd056fab.png",
+    "static/media/login.png": "/react-comments-documentation/static/media/login.2275e5da788d337eeac7.png",
+    "static/media/custom.png": "/react-comments-documentation/static/media/custom.1e7162a0f2bb112f3f89.png",
+    "static/media/noCom.png": "/react-comments-documentation/static/media/noCom.c28437ba950740cbb31f.png",
     "index.html": "/react-comments-documentation/index.html",
-    "main.38cb87cf.css.map": "/react-comments-documentation/static/css/main.38cb87cf.css.map",
-    "main.14c9175e.js.map": "/react-comments-documentation/static/js/main.14c9175e.js.map"
+    "main.b9079622.css.map": "/react-comments-documentation/static/css/main.b9079622.css.map",
+    "main.8caa5035.js.map": "/react-comments-documentation/static/js/main.8caa5035.js.map"
   },
   "entrypoints": [
-    "static/css/main.38cb87cf.css",
-    "static/js/main.14c9175e.js"
+    "static/css/main.b9079622.css",
+    "static/js/main.8caa5035.js"
   ]
 }
