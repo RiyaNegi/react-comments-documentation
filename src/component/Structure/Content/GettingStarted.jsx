@@ -3,6 +3,7 @@ import Highlight from "react-highlight";
 import "./styles.css";
 import { CommentSectionComponent } from "react-comments-section";
 import "react-comments-section/dist/index.css";
+import defaultPng from "../../../images/default.png";
 
 const GettingStarted = () => {
   return (
@@ -19,28 +20,31 @@ const GettingStarted = () => {
       <b>Hooks Implementation (Typescript)</b>
       <p>
         Following is a basic example to start testing the library in your
-        project. This library works on a user <br />
+        project. This library works on a user basis <br />
         system and here are a few important points to remember:{" "}
       </p>
       <li style={{ margin: "10px 5px" }}>
-        <b>currentUser</b> is a required prop, but if there's no user details
-        pass the prop as <b>currentUser={`{null}`}</b>
+        <b>currentUser</b>[required]. For no user details pass the prop as{" "}
+        <b>currentUser={`{null}`}</b>
       </li>
       <li style={{ margin: "10px 5px" }}>
-        Since the library works on user system, For a new user who's details are
-        not registered on the website, can be redirected using the login/signup
-        links in the <b>logIn</b> prop, and hence it is a required prop.
+        A new user can be redirected using the login/signup links in the{" "}
+        <b>logIn</b>[required] prop.
       </li>
       <li style={{ margin: "10px 5px" }}>
-        The optional function prop <b>currentData</b> returns an object of
-        current data available after any action such as comment submit, reply,
-        edit or delete.{" "}
+        The <b>currentData</b>[optional] prop returns an object of current data
+        available after any action such as comment submission, reply, edit or
+        delete.{" "}
       </li>
       <li style={{ margin: "10px 5px" }}>
         The <b>onSubmitAction</b> returns an object of data with the required
-        information to make an API call after a comment is submitted. Check the
-        props list for more such functions.
+        information to make an API call after a comment is submitted.
       </li>
+      For more details check the props list for more such functions.
+      <p>This is how the basic default component would look.</p>
+      <div className="img-style">
+        <img src={defaultPng} />
+      </div>
       <Highlight language="javascript">
         {`import React from 'react'
 import { CommentSectionComponent } from 'react-comments-section'

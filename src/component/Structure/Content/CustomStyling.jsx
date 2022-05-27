@@ -1,6 +1,7 @@
 import React from "react";
 import Highlight from "react-highlight";
 import "./styles.css";
+import custom from "../../../images/custom.png";
 
 const CustomStyling = () => {
   return (
@@ -10,6 +11,10 @@ const CustomStyling = () => {
         This is how you can create your custom styled component. All available
         styling props are used in the following example. You can pass CSS styles
         in the object in react jsx in-line CSS styling format.
+      </div>
+      <div>
+        <b>commentsCount</b> can be used to pass custom comment count in case
+        the user executes pagination and wants to keep track of total comments.
       </div>
 
       <Highlight language="javascript">
@@ -54,26 +59,38 @@ const CustomComponent = () => {
             loginLink: 'http://localhost:3001/',
             signupLink: 'http://localhost:3001/'
           }}
-        hrStyle={{ color: 'pink' }}
-        titleStyle={{ color: 'blue' }}
+        hrStyle={{ border: '0.5px solid #ff0072' }}
+        titleStyle={{ color: '#f2f2f2' }}
         commentsCount={8}
         commentData={data}
         imgStyle={{ borderRadius: '0%' }}
         customImg='https://imagesvc.meredithcorp.io/v3/mm/image?url=https
         %3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F
         2015%2F04%2F05%2Ffeatured.jpg&q=60%27'
-        inputStyle={{ border: '1px solid red' }}
-        replyInputStyle={{ borderBottom: '1px solid blue', color: 'white' }}
-        formStyle={{ backgroundColor: 'aqua' }}
-        submitBtnStyle={{ backgroundColor: 'black' }}
-        cancelBtnStyle={{ backgroundColor: 'yellow' }}
-        overlayStyle={{ backgroundColor: 'black', color: 'white' }}
+        inputStyle={{ border: '1px solid rgb(208 208 208)' }}
+        formStyle={{ backgroundColor: 'white' }}
+        submitBtnStyle={{ border: '1px solid black', backgroundColor: 'black' }}
+        cancelBtnStyle={{
+          border: '1px solid gray',
+          backgroundColor: 'gray',
+          color: 'white'
+        }}
+        overlayStyle={{ backgroundColor: '#0f0d29', color: 'white' }}
+        replyInputStyle={{ borderBottom: '1px solid black', color: 'black' }}
       />
 }
 
 export default CustomComponent
 `}
       </Highlight>
+      <p>
+        This is how the custom styled component would look with the above
+        styling.
+      </p>
+
+      <div className="img-style">
+        <img src={custom} />
+      </div>
     </div>
   );
 };

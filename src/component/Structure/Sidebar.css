@@ -35,3 +35,8 @@
     padding: 8px 0;
   }
 }
+@media screen and (max-width: 600px) {
+  .side-div {
+    display: none;
+  }
+}

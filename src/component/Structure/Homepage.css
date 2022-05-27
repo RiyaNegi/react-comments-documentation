@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 35vw;
+  width: 50vw;
 }
 .content-div {
   margin: 20px;
@@ -21,5 +22,13 @@
     display: flex;
     flex-direction: column;
     margin-left: 30vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    margin-left: unset;
+    width: 100%;
   }
 }

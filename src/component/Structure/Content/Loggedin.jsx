@@ -66,8 +66,7 @@ import 'react-comments-section/dist/index.css'
 export default LogInComponent
 `}
       </Highlight>
-      <p>This is how it would look</p>
-      <b>Demo photo</b>
+      <p>This is how it would look if a user is logged out.</p>
       <div className="img-style">
         <img src={login} />
       </div>

@@ -30,11 +30,6 @@ const Welcome = () => {
           https://riyanegi.github.io/react-comments-section/
         </a>
         <p>
-          <b>`react-comments-section`</b> is a simple but multi-functional react
-          comment section component that helps you create comments section
-          similar to youtube or instagram for your React App.
-        </p>
-        <p>
           {" "}
           <b>`react-comments-section`</b> is very useful for react beginners who
           want a comment section in their project but want to skip it's
