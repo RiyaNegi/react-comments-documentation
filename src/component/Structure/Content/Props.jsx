@@ -124,7 +124,7 @@ const Props = () => {
       title: "currentData",
       desc: "This functional prop can be used to obtain the current available data in the library. This data is updated after every user action like when a comment is posted, a reply is made to a comment, a comment is edited or deleted",
       utility: "function | optional",
-      typeDef: `currentData?: Function`,
+      typeDef: `currentData={(data: any) => ()}`,
     },
     {
       title: "onSubmitAction",
