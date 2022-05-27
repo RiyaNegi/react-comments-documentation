@@ -25,7 +25,7 @@ const Welcome = () => {
         <b>Github : </b>
         <a
           target="_blank"
-          href="https://riyanegi.github.io/react-comments-section/ "
+          href="https://github.com/RiyaNegi/react-comments-section"
         >
           https://riyanegi.github.io/react-comments-section/
         </a>
