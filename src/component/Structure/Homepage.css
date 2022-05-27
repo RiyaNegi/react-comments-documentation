@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.home-grid {
+  margin: 20px;
+  display: flex;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35vw;
+}
+.content-div {
+  margin: 20px;
+  color: #171717;
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+  }
+}

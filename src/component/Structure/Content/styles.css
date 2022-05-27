@@ -1,0 +1,19 @@
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #202020;
+  text-decoration: underline;
+}
+.img-style {
+  display: flex;
+  justify-content: center;
+  background-color: #deddfa;
+  align-items: center;
+  height: 60vh;
+  margin-top: 20px;
+}
+.img-style > img {
+  width: 90%;
+  height: 90%;
+}
