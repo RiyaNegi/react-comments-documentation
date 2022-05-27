@@ -107,7 +107,7 @@ const DefaultComponent = () => {
       replies: []
     }
   ]
-  return <CommentSectionComponent
+  return <CommentSection
         currentUser={{
           currentUserId: '01a',
           currentUserImg:
