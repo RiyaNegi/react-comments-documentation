@@ -17,7 +17,7 @@ const CustomFunctions = () => {
 
       <Highlight language="javascript">
         {`import React, { useState } from 'react'
-import { CommentSectionComponent } from 'react-comments-section'
+import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
 
 const CustomComponent = () => {
@@ -41,7 +41,7 @@ const CustomComponent = () => {
     }
   ])
 
-  return <CommentSectionComponent
+  return <CommentSection
         currentUser={{
           currentUserId: '01a',
           currentUserImg:

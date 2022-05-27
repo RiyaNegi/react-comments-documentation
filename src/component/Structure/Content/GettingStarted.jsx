@@ -1,20 +1,65 @@
 import React from "react";
 import Highlight from "react-highlight";
 import "./styles.css";
-import { CommentSectionComponent } from "react-comments-section";
+import { CommentSection } from "react-comments-section";
 import "react-comments-section/dist/index.css";
 import defaultPng from "../../../images/default.png";
 
 const GettingStarted = () => {
+  const data = [
+    {
+      userId: "01a",
+      comId: "012",
+      fullName: "Riya Negi",
+      avatarUrl: "https://ui-avatars.com/api/name=Riya&background=random",
+      userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
+      text: "Hey, Loved your blog! ",
+      replies: [
+        {
+          userId: "02a",
+          comId: "013",
+          userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
+          fullName: "Adam Scott",
+          avatarUrl: "https://ui-avatars.com/api/name=Adam&background=random",
+          text: "Thanks! It took me 1 month to finish this project but I am glad it helped out someone!🥰",
+        },
+      ],
+    },
+    {
+      userId: "02b",
+      comId: "017",
+      fullName: "Lily",
+      userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
+      text: "I think you have a point🤔",
+      avatarUrl: "https://ui-avatars.com/api/name=Lily&background=random",
+      replies: [],
+    },
+  ];
   return (
     <div>
       <div className="title"> Getting Started</div>
+      <b>Live Implementation ( Try it out yourself!! )</b>
+      <CommentSection
+        currentUser={{
+          currentUserId: "01a",
+          currentUserImg:
+            "https://ui-avatars.com/api/name=Riya&background=random",
+          currentUserProfile:
+            "https://www.linkedin.com/in/riya-negi-8879631a9/",
+          currentUserFullName: "Riya Negi",
+        }}
+        logIn={{
+          loginLink: "http://localhost:3001/",
+          signupLink: "http://localhost:3001/",
+        }}
+        commentData={data}
+      />
       <b>Installation</b>
       <br />
       <br />
       <span> Get started with installing the library.</span>
       <Highlight language="javascript" className="language-name-of-snippet">
-        {"npm i react-comments-section"}
+        {"npm i react-comments-section@2.0.4"}
       </Highlight>
       <br />
       <b>Hooks Implementation (Typescript)</b>
@@ -47,7 +92,7 @@ const GettingStarted = () => {
       </div>
       <Highlight language="javascript">
         {`import React from 'react'
-import { CommentSectionComponent } from 'react-comments-section'
+import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
 
 const DefaultComponent = () => {
@@ -95,15 +140,6 @@ const DefaultComponent = () => {
 export default DefaultComponent
 `}
       </Highlight>
-      {/* <b>Demo</b> */}
-      {/* <CommentSectionComponent
-        currentUser={{}}
-        commentData={data}
-        logIn={{
-          loginLink: "http://localhost:3001/",
-          signupLink: "http://localhost:3001/",
-        }}
-      /> */}
     </div>
   );
 };

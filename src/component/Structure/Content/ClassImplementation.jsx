@@ -12,7 +12,7 @@ const ClassImplementation = () => {
       </p>
       <Highlight language="javascript">
         {`import React, { PureComponent } from 'react'
-import { CommentSectionComponent } from 'react-comments-section'
+import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
 
 class ClassComponent extends PureComponent {
@@ -47,7 +47,7 @@ class ClassComponent extends PureComponent {
 
   render() {
     return 
-        <CommentSectionComponent
+        <CommentSection
           currentUser={{
             currentUserId: '01a',
             currentUserImg:

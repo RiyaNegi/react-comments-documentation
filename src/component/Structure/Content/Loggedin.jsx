@@ -16,7 +16,7 @@ const Loggedin = () => {
       the prop as <b>currentUser={`{null}`}</b>
       <Highlight language="javascript">
         {`import React from 'react'
-import { CommentSectionComponent } from 'react-comments-section'
+import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
 
   const LogInComponent = () => {
@@ -42,7 +42,7 @@ import 'react-comments-section/dist/index.css'
       ]
     }
   ]
-  return <CommentSectionComponent
+  return <CommentSection
         currentUser={userId ? {
           currentUserId: '01a',
           currentUserImg:

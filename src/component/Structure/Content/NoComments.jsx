@@ -16,7 +16,7 @@ const NoComments = () => {
 
       <Highlight language="javascript">
         {`import React from 'react'
-import { CommentSectionComponent } from 'react-comments-section'
+import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
 
   const CustomComponent = () => {
@@ -25,7 +25,7 @@ import 'react-comments-section/dist/index.css'
         <div className='no-com'>Sheessh! Zero Comments posted here!</div>
       )
 
-  return <CommentSectionComponent
+  return <CommentSection
         currentUser={userId ? {
           currentUserId: '01a',
           currentUserImg:
