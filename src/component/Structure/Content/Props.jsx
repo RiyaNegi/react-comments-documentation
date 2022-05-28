@@ -115,6 +115,13 @@ const Props = () => {
       typeDef: `titleStyle?: object`,
     },
     {
+      title: "removeEmoji",
+      desc: "This prop is false by default. It can be used to remove the emoji feature in the input box by setting it true.",
+      utility: "boolean | optional",
+      typeDef: `removeEmoji?: boolean`,
+    },
+
+    {
       title: "customNoComment",
       desc: "This prop can be used to pass your custom styled “No comments here” div when there are no comments. Default “No comments” is provided by the library which will be used in case this props is not passed. Pass an empty prop if you don’t want anything to be written when there are no comments ",
       utility: "function | optional",

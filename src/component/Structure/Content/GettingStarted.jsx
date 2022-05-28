@@ -59,7 +59,7 @@ const GettingStarted = () => {
       <br />
       <span> Get started with installing the library.</span>
       <Highlight language="javascript" className="language-name-of-snippet">
-        {"npm i react-comments-section@2.0.4"}
+        {"npm i react-comments-section"}
       </Highlight>
       <br />
       <b>Hooks Implementation (Typescript)</b>

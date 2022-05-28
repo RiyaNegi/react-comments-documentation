@@ -13,6 +13,10 @@ const CustomStyling = () => {
         in the object in react jsx in-line CSS styling format.
       </div>
       <div>
+        <b>removeEmoji</b> can be used to remove the emoji option from the input
+        field.
+      </div>
+      <div>
         <b>commentsCount</b> can be used to pass custom comment count in case
         the user executes pagination and wants to keep track of total comments.
       </div>
@@ -75,6 +79,7 @@ const CustomComponent = () => {
           backgroundColor: 'gray',
           color: 'white'
         }}
+        removeEmoji={true}
         overlayStyle={{ backgroundColor: '#0f0d29', color: 'white' }}
         replyInputStyle={{ borderBottom: '1px solid black', color: 'black' }}
       />
