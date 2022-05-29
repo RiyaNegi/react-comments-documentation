@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-comments-documentation/static/css/main.c49c1c67.css",
+    "main.css": "/react-comments-documentation/static/css/main.f8c2c468.css",
     "main.js": "/react-comments-documentation/static/js/main.6653a051.js",
     "static/media/default.png": "/react-comments-documentation/static/media/default.3e3315cc64d976f30e2b.png",
     "static/media/login.png": "/react-comments-documentation/static/media/login.2275e5da788d337eeac7.png",
@@ -8,11 +8,11 @@
     "static/media/noCom.png": "/react-comments-documentation/static/media/noCom.c28437ba950740cbb31f.png",
     "index.html": "/react-comments-documentation/index.html",
     "static/media/svg": "/react-comments-documentation/static/media/2a0bc34f2fdf6d6b.6e0f8a48a90f41998086.svg",
-    "main.c49c1c67.css.map": "/react-comments-documentation/static/css/main.c49c1c67.css.map",
+    "main.f8c2c468.css.map": "/react-comments-documentation/static/css/main.f8c2c468.css.map",
     "main.6653a051.js.map": "/react-comments-documentation/static/js/main.6653a051.js.map"
   },
   "entrypoints": [
-    "static/css/main.c49c1c67.css",
+    "static/css/main.f8c2c468.css",
     "static/js/main.6653a051.js"
   ]
 }
