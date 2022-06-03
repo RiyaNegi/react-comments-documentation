@@ -49,6 +49,12 @@ const Props = () => {
           }`,
     },
     {
+      title: "advancedInput",
+      desc: "This prop can be used to access a rich text editor type of input box",
+      utility: "booleam | optional",
+      typeDef: `advancedInput?: boolean`,
+    },
+    {
       title: "customImg",
       desc: "This prop can be used to provide a custom image for the input field that is used by the current user to input their replies.",
       utility: "string | optional",

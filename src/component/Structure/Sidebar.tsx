@@ -4,6 +4,7 @@ import "./Sidebar.css";
 const options = [
   { title: "Welcome", link: "Welcome" },
   { title: "Getting Started", link: "GettingStarted" },
+  { title: "Advanced Input", link: "AdvancedInput" },
   { title: "Logged In Component", link: "Loggedin" },
   { title: "No Comments Components", link: "NoComments" },
   { title: "Class Implementation", link: "ClassImplementation" },

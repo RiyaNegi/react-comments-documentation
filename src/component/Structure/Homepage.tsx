@@ -10,6 +10,7 @@ import ClassImplementation from "./Content/ClassImplementation";
 import CustomStyling from "./Content/CustomStyling";
 import CustomFunctions from "./Content/CustomFunctions";
 import Props from "./Content/Props";
+import AdvancedInput from "./Content/AdvancedInput";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,10 @@ const HomePage = () => {
           <div className="content-div" id="GettingStarted">
             {" "}
             <GettingStarted />
+          </div>
+          <div className="content-div" id="AdvancedInput">
+            {" "}
+            <AdvancedInput />
           </div>
           <div className="content-div" id="Loggedin">
             {" "}
