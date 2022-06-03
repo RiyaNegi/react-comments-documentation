@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 import custom from "../../../images/custom.png";
 
@@ -21,7 +21,7 @@ const CustomStyling = () => {
         the user executes pagination and wants to keep track of total comments.
       </div>
 
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {`import React, { useState } from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -87,7 +87,7 @@ const CustomComponent = () => {
 
 export default CustomComponent
 `}
-      </Highlight>
+      </HighlightElement>
       <p>
         This is how the custom styled component would look with the above
         styling.

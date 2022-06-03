@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 
 const CustomFunctions = () => {
@@ -15,7 +15,7 @@ const CustomFunctions = () => {
         database updated.
       </div>
 
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {`import React, { useState } from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -88,7 +88,7 @@ const CustomComponent = () => {
 
 export default CustomComponent}
 `}
-      </Highlight>
+      </HighlightElement>
     </div>
   );
 };

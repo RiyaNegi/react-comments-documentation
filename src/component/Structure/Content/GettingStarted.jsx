@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 import { CommentSection } from "react-comments-section";
 import "react-comments-section/dist/index.css";
@@ -58,9 +58,9 @@ const GettingStarted = () => {
       <br />
       <br />
       <span> Get started with installing the library.</span>
-      <Highlight language="javascript" className="language-name-of-snippet">
-        {"npm i react-comments-section"}
-      </Highlight>
+      <HighlightElement language="javascript">
+        {`npm i react-comments-section`}
+      </HighlightElement>
       <br />
       <b>Hooks Implementation (Typescript)</b>
       <p>
@@ -90,7 +90,7 @@ const GettingStarted = () => {
       <div className="img-style">
         <img src={defaultPng} />
       </div>
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {`import React from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -139,7 +139,7 @@ const DefaultComponent = () => {
 
 export default DefaultComponent
 `}
-      </Highlight>
+      </HighlightElement>
     </div>
   );
 };

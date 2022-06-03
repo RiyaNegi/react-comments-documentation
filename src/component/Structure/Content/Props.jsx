@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 
 const Props = () => {
@@ -207,7 +207,9 @@ const Props = () => {
             <br />
             <p>{i.desc}</p>
             <div> {`> ${i.utility}`}</div>
-            <Highlight language="javascript">{i.typeDef}</Highlight>
+            <HighlightElement language="javascript">
+              {i.typeDef}
+            </HighlightElement>
           </div>
         );
       })}

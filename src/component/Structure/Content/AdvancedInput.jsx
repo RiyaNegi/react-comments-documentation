@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 import { CommentSection } from "react-comments-section";
 import "react-comments-section/dist/index.css";
@@ -100,7 +100,7 @@ const AdvancedInput = () => {
         />
       </div>
 
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {` import React from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -164,7 +164,7 @@ const AdvancedComponent = () => {
 }
 export default AdvancedComponent
 `}
-      </Highlight>
+      </HighlightElement>
     </div>
   );
 };

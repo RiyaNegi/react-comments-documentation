@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 
 const ClassImplementation = () => {
@@ -10,7 +10,7 @@ const ClassImplementation = () => {
         Following is react's classes method implementation of the library along
         with an example on how to pass cutom props and functions.
       </p>
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {`import React, { PureComponent } from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -69,7 +69,7 @@ class ClassComponent extends PureComponent {
 
 export default ClassComponent
 `}
-      </Highlight>
+      </HighlightElement>
     </div>
   );
 };

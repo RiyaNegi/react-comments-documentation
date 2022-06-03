@@ -1,5 +1,5 @@
 import React from "react";
-import Highlight from "react-highlight";
+import HighlightElement from "react-highlight";
 import "./styles.css";
 import login from "../../../images/login.png";
 
@@ -14,7 +14,7 @@ const Loggedin = () => {
       </p>
       <b>currentUser</b> is a required prop, but if there's no user details pass
       the prop as <b>currentUser={`{null}`}</b>
-      <Highlight language="javascript">
+      <HighlightElement language="javascript">
         {`import React from 'react'
 import { CommentSection } from 'react-comments-section'
 import 'react-comments-section/dist/index.css'
@@ -65,7 +65,7 @@ import 'react-comments-section/dist/index.css'
 
 export default LogInComponent
 `}
-      </Highlight>
+      </HighlightElement>
       <p>This is how it would look if a user is logged out.</p>
       <div className="img-style">
         <img src={login} />
