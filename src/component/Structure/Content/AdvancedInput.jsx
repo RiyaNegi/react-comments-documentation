@@ -13,7 +13,8 @@ const AdvancedInput = () => {
       fullName: "Riya Negi",
       avatarUrl: "https://ui-avatars.com/api/name=Riya&background=random",
       userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
-      text: `<p>Hey <strong>loved</strong> your blog! Can you show me some other ways to <del><em>fix</em></del>  solve this?🤔<br>Here's my <a href="https://www.linkedin.com/in/riya-negi-8879631a9/" target="_blank">Linkedin Profile</a> to reach out.</p>`,
+      text: `<p>Hey <strong>loved</strong> your blog! Can you show me some other ways to <del><em>fix</em></del> 
+       solve this?🤔<br>Here's my <a href="https://www.linkedin.com/in/riya-negi-8879631a9/" target="_blank">Linkedin Profile</a> to reach out.</p>`,
       replies: [
         {
           userId: "02a",
@@ -21,7 +22,8 @@ const AdvancedInput = () => {
           userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
           fullName: "Adam Scott",
           avatarUrl: "https://ui-avatars.com/api/name=Adam&background=random",
-          text: `<p>Yeah sure try adding this line to your code. You need to pass <span style="color: rgb(147,101,184);">event</span><span style="color: rgb(26,188,156);"> </span><span style="color: rgb(0,0,0);">as a param. </span></p>
+          text: `<p>Yeah sure try adding this line to your code. You need to pass <span style="color: rgb(147,101,184);">
+          event</span><span style="color: rgb(26,188,156);"> </span><span style="color: rgb(0,0,0);">as a param. </span></p>
           <pre>event.preventDefault()</pre>
           <p>Best of luck with your project! <br></p>
           <img src="https://c.tenor.com/4cR1jMpsrEgAAAAC/snoopy-cheerleader.gif" alt="undefined" style="height: auto;width: auto"/>
