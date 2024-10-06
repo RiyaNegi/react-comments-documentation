@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-comments-documentation/static/css/main.3a5fe097.css",
-    "main.js": "/react-comments-documentation/static/js/main.0f669100.js",
+    "main.css": "/react-comments-documentation/static/css/main.3608af06.css",
+    "main.js": "/react-comments-documentation/static/js/main.ce6417c8.js",
     "static/media/default.png": "/react-comments-documentation/static/media/default.3e3315cc64d976f30e2b.png",
     "static/media/login.png": "/react-comments-documentation/static/media/login.2275e5da788d337eeac7.png",
     "static/media/custom.png": "/react-comments-documentation/static/media/custom.1e7162a0f2bb112f3f89.png",
     "static/media/noCom.png": "/react-comments-documentation/static/media/noCom.c28437ba950740cbb31f.png",
     "index.html": "/react-comments-documentation/index.html",
     "static/media/svg": "/react-comments-documentation/static/media/2a0bc34f2fdf6d6b.6e0f8a48a90f41998086.svg",
-    "main.3a5fe097.css.map": "/react-comments-documentation/static/css/main.3a5fe097.css.map",
-    "main.0f669100.js.map": "/react-comments-documentation/static/js/main.0f669100.js.map"
+    "main.3608af06.css.map": "/react-comments-documentation/static/css/main.3608af06.css.map",
+    "main.ce6417c8.js.map": "/react-comments-documentation/static/js/main.ce6417c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5fe097.css",
-    "static/js/main.0f669100.js"
+    "static/css/main.3608af06.css",
+    "static/js/main.ce6417c8.js"
   ]
 }
