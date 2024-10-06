@@ -15,6 +15,7 @@ const AdvancedInput = () => {
       userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
       text: `<p>Hey <strong>loved</strong> your blog! Can you show me some other ways to <del><em>fix</em></del> 
        solve this?🤔<br>Here's my <a href="https://www.linkedin.com/in/riya-negi-8879631a9/" target="_blank">Linkedin Profile</a> to reach out.</p>`,
+      timestamp: "2024-09-28T10:34:56Z",
       replies: [
         {
           userId: "02a",
@@ -28,6 +29,7 @@ const AdvancedInput = () => {
           <p>Best of luck with your project! <br></p>
           <img src="https://c.tenor.com/4cR1jMpsrEgAAAAC/snoopy-cheerleader.gif" alt="undefined" style="height: auto;width: auto"/>
           <p></p>`,
+          timestamp: "2024-09-28T10:34:56Z",
         },
         {
           userId: "01a",
@@ -36,6 +38,7 @@ const AdvancedInput = () => {
           fullName: "Riya Negi",
           avatarUrl: "https://ui-avatars.com/api/name=Riya&background=random",
           text: '<p><strong>OMG!</strong> it worked! <span style="color: rgb(209,72,65);">DO NOT stop this blog series!!!!</span> 💃</p>',
+          timestamp: "2024-09-28T10:34:56Z",
         },
       ],
     },
@@ -51,6 +54,7 @@ const AdvancedInput = () => {
       <li>Repeat</li>
       <li>Yoursef</li>
       </ol>`,
+      timestamp: "2024-09-28T10:34:56Z",
       avatarUrl: "https://ui-avatars.com/api/name=Lily&background=random",
       replies: [],
     },
@@ -81,9 +85,10 @@ const AdvancedInput = () => {
           hrStyle={{ border: "0.5px solid #ff0072" }}
           commentData={data}
           logIn={{
-            loginLink: "http://localhost:3001/",
+            onLogin: () => alert("Call login function"),
             signupLink: "http://localhost:3001/",
           }}
+          placeholder={"Write a comment..."}
           customImg="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2015%2F04%2F05%2Ffeatured.jpg&q=60"
           inputStyle={{ border: "1px solid rgb(208 208 208)" }}
           formStyle={{ backgroundColor: "white" }}
@@ -117,6 +122,7 @@ const AdvancedComponent = () => {
       avatarUrl: 'https://ui-avatars.com/api/name=Riya&background=random',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'Hey, Loved your blog! ',
+      timestamp: "2024-09-28T10:34:56Z",
       replies: [
     {
       userId: '02b',
@@ -124,6 +130,7 @@ const AdvancedComponent = () => {
       fullName: 'Lily',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'I have a doubt about the 4th point🤔',
+      timestamp: "2024-09-28T10:34:56Z",
       avatarUrl: 'https://ui-avatars.com/api/name=Lily&background=random',
       replies: []
     }
@@ -142,9 +149,10 @@ const AdvancedComponent = () => {
         hrStyle={{ border: '0.5px solid #ff0072' }}
         commentData={data}
         logIn={{
-          loginLink: 'http://localhost:3001/',
+          onLogin: () => alert("Call login function"),
           signupLink: 'http://localhost:3001/'
         }}
+        placeholder={"Write a comment..."}
         customImg='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2015%2F04%2F05%2Ffeatured.jpg&q=60'
         inputStyle={{ border: '1px solid rgb(208 208 208)' }}
         formStyle={{ backgroundColor: 'white' }}

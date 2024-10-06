@@ -29,6 +29,7 @@ const CustomComponent = () => {
       avatarUrl: 'https://ui-avatars.com/api/name=Riya&background=random',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'Hey, Loved your blog! ',
+      timestamp: "2024-09-28T10:34:56Z",
       replies: [
     {
       userId: '02b',
@@ -36,6 +37,7 @@ const CustomComponent = () => {
       fullName: 'Lily',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'I have a doubt about the 4th point🤔',
+      timestamp: "2024-09-28T10:34:56Z",
       avatarUrl: 'https://ui-avatars.com/api/name=Lily&background=random',
       replies: []
     }
@@ -51,10 +53,12 @@ const CustomComponent = () => {
           currentUserFullName: 'Riya Negi'
         }}
         logIn={{
-            loginLink: 'http://localhost:3001/',
-            signupLink: 'http://localhost:3001/'
+          onLogin: () => alert("Call login function"),
+          signupLink: 'http://localhost:3001/'
           }}
         commentData={data}
+        placeholder={"Write a comment..."}
+        showTimestamp={false} // true by default
         onSubmitAction={() =>
           setData([
             {
@@ -64,6 +68,7 @@ const CustomComponent = () => {
               avatarUrl:
                 'https://ui-avatars.com/api/name=Robert&background=random',
               text: 'Woah pretty helpful! how did you solve for x?',
+              timestamp: "2024-09-28T10:34:56Z",
               userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
               replies: [
                 {
@@ -73,6 +78,7 @@ const CustomComponent = () => {
                     'https://www.linkedin.com/in/riya-negi-8879631a9/',
                   fullName: 'Adam Scott',
                   text: 'Thanks! refer to this link -> acs.com',
+                  timestamp: "2024-09-28T10:34:56Z",
                   avatarUrl:
                     'https://ui-avatars.com/api/name=Adam&background=random'
                 }

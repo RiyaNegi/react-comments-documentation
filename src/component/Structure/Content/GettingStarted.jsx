@@ -14,6 +14,7 @@ const GettingStarted = () => {
       avatarUrl: "https://ui-avatars.com/api/name=Riya&background=random",
       userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
       text: "Hey, Loved your blog! ",
+      timestamp: "2024-09-28T10:34:56Z",
       replies: [
         {
           userId: "02a",
@@ -22,6 +23,7 @@ const GettingStarted = () => {
           fullName: "Adam Scott",
           avatarUrl: "https://ui-avatars.com/api/name=Adam&background=random",
           text: "Thanks! It took me 1 month to finish this project but I am glad it helped out someone!🥰",
+          timestamp: "2024-09-28T10:34:56Z",
         },
       ],
     },
@@ -31,6 +33,7 @@ const GettingStarted = () => {
       fullName: "Lily",
       userProfile: "https://www.linkedin.com/in/riya-negi-8879631a9/",
       text: "I think you have a point🤔",
+      timestamp: "2024-09-28T10:34:56Z",
       avatarUrl: "https://ui-avatars.com/api/name=Lily&background=random",
       replies: [],
     },
@@ -48,8 +51,9 @@ const GettingStarted = () => {
             "https://www.linkedin.com/in/riya-negi-8879631a9/",
           currentUserFullName: "Riya Negi",
         }}
+        placeholder={"Write a comment..."}
         logIn={{
-          loginLink: "http://localhost:3001/",
+          onLogin: () => alert("Call login function"),
           signupLink: "http://localhost:3001/",
         }}
         commentData={data}
@@ -103,6 +107,7 @@ const DefaultComponent = () => {
       fullName: 'Lily',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'I think you have a point🤔',
+      timestamp: "2024-09-28T10:34:56Z",
       avatarUrl: 'https://ui-avatars.com/api/name=Lily&background=random',
       replies: []
     }
@@ -117,10 +122,11 @@ const DefaultComponent = () => {
           currentUserFullName: 'Riya Negi'
         }}
         logIn={{
-          loginLink: 'http://localhost:3001/',
+          onLogin: ()=>alert("Call login function"),
           signupLink: 'http://localhost:3001/'
         }}
         commentData={data}
+        placeholder={"Write a comment..."}
         onSubmitAction={(data: {
           userId: string
           comId: string
@@ -132,7 +138,7 @@ const DefaultComponent = () => {
           commentId: string
         }) => console.log('check submit, ', data)}
         currentData={(data: any) => {
-          console.log('curent data', data)
+          console.log('current data', data)
         }}
       />
 }

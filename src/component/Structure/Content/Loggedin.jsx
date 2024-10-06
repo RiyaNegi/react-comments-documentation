@@ -28,6 +28,7 @@ import 'react-comments-section/dist/index.css'
       avatarUrl: 'https://ui-avatars.com/api/name=Riya&background=random',
       userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
       text: 'Hey, Loved your blog! ',
+      timestamp: "2024-09-28T10:34:56Z",
       replies: [
       {
        userId: '02a',
@@ -38,6 +39,7 @@ import 'react-comments-section/dist/index.css'
   text: 'Thanks! It took me 1 month to finish this 
   project but I am 
   glad it helped out someone!🥰'
+  timestamp: "2024-09-28T10:34:56Z",
       }
       ]
     }
@@ -51,13 +53,9 @@ import 'react-comments-section/dist/index.css'
             'https://www.linkedin.com/in/riya-negi-8879631a9/',
           currentUserFullName: 'Riya Negi'
         }:null}
-        logIn={{
-            loginLink: 'http://localhost:3001/',
-            signupLink: 'http://localhost:3001/'
-          }:null}
         commentData={data}
         logIn={{
-          loginLink: 'http://localhost:3001/',
+          onLogin: () => alert("Call login function"),
           signupLink: 'http://localhost:3001/'
         }}
       />

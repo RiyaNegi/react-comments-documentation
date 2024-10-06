@@ -14,6 +14,7 @@ const Props = () => {
             fullName: string
             avatarUrl: string
             text: string
+            timestamp?: string
             userProfile?: string
             replies?: Array <{
                   userId: string
@@ -21,12 +22,14 @@ const Props = () => {
                   fullName: string
                   avatarUrl: string
                   text: string
+                  timestamp?: string
                   userProfile?: string
                 }>
               | undefined
           }>
       `,
     },
+
     {
       title: "currentUser",
       desc: "This prop is required to give currently logged in user's details.",
@@ -44,14 +47,28 @@ const Props = () => {
       desc: "This prop can be used in case no user is logged in, It can redirect it the user to the given login/signup link.",
       utility: "object | required",
       typeDef: `logIn?: {
-            loginLink: string
-            signupLink: string
-          }`,
+        loginLink?: string 
+        signUpLink?: string 
+        onLogin?: () => void // New login function feature
+        onSignUp?: () => void // New signup function feature
+      }`,
+    },
+    {
+      title: "showTimestamp",
+      desc: "This prop can be used to hide or show the timestamp of comments. It is true by default.",
+      utility: "boolean | optional",
+      typeDef: `showTimestamp?: boolean`,
+    },
+    {
+      title: "placeholder",
+      desc: "This prop can be used to keep a custom placeholder in the main input box",
+      utility: "string | optional",
+      typeDef: `placeholder?: string`,
     },
     {
       title: "advancedInput",
       desc: "This prop can be used to access a rich text editor type of input box",
-      utility: "booleam | optional",
+      utility: "boolean | optional",
       typeDef: `advancedInput?: boolean`,
     },
     {

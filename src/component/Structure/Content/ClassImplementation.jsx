@@ -25,6 +25,7 @@ class ClassComponent extends PureComponent {
         avatarUrl: 'https://ui-avatars.com/api/name=Riya&background=random',
         userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
         text: 'Hey, Loved your blog! ',
+        timestamp: "2024-09-28T10:34:56Z",
         replies: []
       },
       {
@@ -33,6 +34,7 @@ class ClassComponent extends PureComponent {
         fullName: 'Lily',
         userProfile: 'https://www.linkedin.com/in/riya-negi-8879631a9/',
         text: 'I have a doubt about the 4th point🤔',
+        timestamp: "2024-09-28T10:34:56Z",
         avatarUrl: 'https://ui-avatars.com/api/name=Lily&background=random',
         replies: []
       }
@@ -59,8 +61,9 @@ class ClassComponent extends PureComponent {
           commentData={this.state.data}
           onSubmitAction={(data:any) => this.onSubmitAction(data)}
           customNoComment={() => this.customNoComment()}
+          placeholder={"Write a comment..."}
           logIn={{
-            loginLink: 'http://localhost:3001/',
+            onLogin: () => alert("Call login function"),
             signupLink: 'http://localhost:3001/'
           }}
         />
